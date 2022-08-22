@@ -24,7 +24,7 @@ function onTextInput(evt) {
     const message = evt.target.value;
     console.log(formData)
 
-    localStorage.setItem(STORAGE_KEY, message)
+    localStorage.setItem(STORAGE_KEY, formData)
 }
 
 function populateText() {
